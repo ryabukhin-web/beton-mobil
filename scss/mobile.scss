@@ -1,0 +1,189 @@
+@media (max-width: 1199px){
+    body{
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px){
+    .working {
+
+        &__list,
+        &__image {
+            width: 50%;
+        }
+    }
+
+    .top-section__block {
+        width: calc(33.333% - 50px);
+        padding: 25px 20px 20px 20px;
+    }
+
+    .header {
+        padding-top: 35px;
+
+        .wrapper {
+            justify-content: space-around;
+        }
+
+        &__nav {
+            margin-top: 25px;
+        }
+    }
+
+    .top-nav__item {
+        margin-right: 25px;
+    }
+
+    .top {
+        margin-top: -80px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+    .top__span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .footer {
+        &__left,
+        &__menu,
+        &__right {
+            width: calc(50% - 10px);
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .top-section__block {
+        width: calc(50% - 50px);
+        margin-bottom: 20px;
+    }
+
+    .top-section .wrapper {
+        justify-content: space-around;
+    }
+
+    .order__left {
+        width: calc(100% - 280px);
+        height: 460px;
+    }
+
+    .order__right {
+        width: 260px;
+    }
+
+    .order__form {
+        margin-top: 80px;
+    }
+
+    .pr-left__cell {
+        font-size: 16px;
+    }
+    .pr-left__col {
+        width: 45%;
+    }
+    .prices__left {
+        width: calc(47% - 20px);
+    }
+    .prices__right {
+        width: calc(53% - 20px);
+    }
+}
+
+@media (max-width: 575px){
+    .map .wrapper {
+        justify-content: center;
+    }
+    .map__block {
+        margin: 0;
+    }
+    .working__image {
+        display: none;
+    }
+    .working__list {
+        width: 100%;
+    }
+
+    .prices__body {
+        flex-direction: column-reverse;
+    }
+    .prices__left {
+        margin-top: 20px;
+    }
+    .prices__left, .prices__right {
+        width: 100%;
+    }
+
+    .top-section__block {
+        width: 100%;
+    }
+
+    .challenge {
+        display: none;
+    }
+    .order__body {
+        flex-direction: column-reverse;
+    }
+    .order__right {
+        width: 100%;
+    }
+    .order__left {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .order__left {
+        height: 520px;
+    }
+}
+
+@media (max-width: 468px){
+    .partners__icone {
+        width: calc(50% - 15px);
+    }
+
+    .top-nav__item {
+        margin-right: 5px;
+    }
+
+    .contacts {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .top__left {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .top__button {
+        margin: 10px 0 10px 0;
+    }
+
+    .top__title {
+        margin-top: 120px;
+    }
+
+    .top__right {
+        display: none;
+    }
+    .top-section {
+        margin-top: 50px;
+    }
+
+    .map__block {
+        width: calc(100% - 40px);
+        padding: 40px 20px 40px 20px;
+    }
+}
